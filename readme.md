@@ -1,6 +1,6 @@
 [SWIG Tutorial](http://www.swig.org/tutorial.html)
 
-ubuntu 20.04 on wsl
+env: ubuntu 20.04 on wsl
 
 install swig
 ```shell
@@ -19,5 +19,5 @@ ld -shared example.o example_wrap.o -o _example.so
 
 run
 ```shell
-python main.py
+python3 main.py
 ```
